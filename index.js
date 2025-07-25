@@ -15,7 +15,7 @@ app.post("/submit", async (req, res) => {
     
     if(response.data.error)
     {
-        var msg1 = "fuck";
+        var msg1 = "Error";
         res.render("index.ejs", {msg1});
     }
     else
